@@ -18,8 +18,22 @@ html,body{
     background-size: cover;
     background-position: center;
 }
+.active{
+    background-color: #f7f7f7;
+    color: #000;
+}
+.banner-sec .nav-link:hover {
+    background-color: #f7f7f7;
+    color: #000;
+}
 .card-user{
     background-color: #E3F0FF;
+}
+/*offer*/
+.offer-card {
+    width: 14rem;
+    height: 26vh;
+    padding: 5px 10px;
 }
 /*home decor sec*/
 .home-decor .home{
@@ -34,6 +48,12 @@ html,body{
     background-size: cover;
     background-position: center;
 }
+.lamp{
+    margin-left: 3rem;
+}
+.bad{
+    margin-left: 1rem;
+}
 /*Supplier-sec*/
 .supplier-sec {
     padding: 50px 30px;
@@ -42,6 +62,9 @@ html,body{
     background-position: center;
 }
 /* countdown*/
+.countdown{
+    gap: 1rem;
+}
 .time-box {
     display: flex;
     flex-direction: column;
@@ -83,10 +106,53 @@ html,body{
 .news-sec form {
     margin-left: 39%;
 }
+/*categories*/
+.categories{
+    gap: 1rem;
+}
+.categories p {
+    margin: 1rem;
+}
 /* footer*/
 footer{
     padding: 75px 18px;
 }
 .copyright-sec {
     background-color: #BDC4CD;
+}
+/*responsive start */
+@media screen and (max-width: 1199px) {
+    .drop {
+        margin-left: 2rem;
+    }
+    .time-box span {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .countdown{
+        gap: .4rem;
+    }
+}
+@media screen and (max-width: 991px){
+    .sidebar{
+        display: none;
+    }
+    .crd{
+        display: none;
+    }
+    .bann{
+        width: 100%;
+    }
+    .categories {
+        gap: 0.25rem;
+    }
+    .categories p {
+        margin: 0.25rem;
+    }
+    .lamp{
+        margin-left: .25rem;
+    }
+    .bad{
+        margin-left: 0rem;
+    }
 }
