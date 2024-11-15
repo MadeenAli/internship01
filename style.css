@@ -148,6 +148,12 @@ footer{
     }
 }
 @media screen and (max-width: 991px){
+    .drop {
+        margin-left: 1rem;
+    }
+    .home-decor .home {
+        display: none;
+    }
     .sidebar{
         display: none;
     }
@@ -168,5 +174,21 @@ footer{
     }
     .bad{
         margin-left: 0rem;
+    }
+    .margin{
+        margin: 50px;
+    }
+    .crd-decor .card-body .img-box img {
+        margin: 20px 54px;
+        gap: 1rem;
+    }
+    .deals{
+        display: none;
+    }
+    .items{
+        margin-left: 14%;
+    }
+    .recommended-sec .card{
+        width: 12rem;
     }
 }
