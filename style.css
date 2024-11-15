@@ -58,6 +58,9 @@ html,body{
 .coffee{
     width: 81px !important;
 }
+.camera{
+    padding: 18px 10px !important;
+}
 .electronic .home{
     background-image: url(img/eletronic-bg.png);
     padding: 60px 20px;
