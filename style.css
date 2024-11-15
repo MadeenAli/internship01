@@ -32,8 +32,11 @@ html,body{
 /*offer*/
 .offer-card {
     width: 14rem;
-    height: 26vh;
+    height: 41vh;
     padding: 5px 10px;
+}
+.pink{
+    background-color: #FFE3E3 !important;
 }
 /*home decor sec*/
 .home-decor .home{
@@ -42,17 +45,24 @@ html,body{
     background-size: cover;
     background-position: center;
 }
-.electronic-gadets .home{
+.home-decor h4{
+    margin-top: 3rem;
+}
+.crd-decor{
+    width: 18rem;
+}
+.crd-decor .card-body .img-box img{
+    margin-left: 8rem;
+    width: 71px;
+}
+.coffee{
+    width: 81px !important;
+}
+.electronic .home{
     background-image: url(img/eletronic-bg.png);
     padding: 60px 20px;
     background-size: cover;
     background-position: center;
-}
-.lamp{
-    margin-left: 3rem;
-}
-.bad{
-    margin-left: 1rem;
 }
 /*Supplier-sec*/
 .supplier-sec {
@@ -94,6 +104,7 @@ html,body{
 .subscribe-sec {
     background-color: #BDC4CD;
 }
+/*Recommednded sec*/
 /*extra services*/
 .filter {
     filter: contrast(1.5);
