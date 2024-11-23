@@ -8,6 +8,9 @@ html,body{
     height: 100vh;
     overflow-x: hidden;
 }
+main {
+    background-color: rgb(247, 250, 252);
+}
 .drop {
     margin-left: 23rem;
 }
@@ -134,6 +137,16 @@ footer{
 .copyright-sec {
     background-color: #BDC4CD;
 }
+/* product */
+.bg-gt{
+    background-color: #BDC4CD;
+}
+.product-det .img-box img{
+    height: 27vh;
+}
+.product-card{
+    padding: 20px 30px;
+}
 /*responsive start */
 @media screen and (max-width: 1199px) {
     .drop {
@@ -193,5 +206,35 @@ footer{
     }
 }
 @media screen and (max-width: 767){
-    
+    .drop {
+        margin-left: -22rem;
+        margin-top: 5rem;
+    }
+    .items {
+        margin-left: 1%;
+    }
+    .crd-decor {
+        width: 8rem;
+        margin-top: 45px;
+    }
+    .crd-decor .card-body .img-box img {
+        margin: 13px 26px;
+    }
+    .margin {
+        margin: 7px;
+    }
+}
+@media screen and(max-width: 545px){
+    .drop {
+        margin-left: -26rem;
+        margin-top: 5rem;
+    }
+    .offer-card {
+        width: 12rem;
+        height: 37vh;
+        padding: 0px 0px;
+    }
+    .crd-decor {
+        width: 7rem;
+    }    
 }
