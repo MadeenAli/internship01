@@ -9,7 +9,7 @@ html,body{
     overflow-x: hidden;
 }
 main {
-    background-color: #DEE2E7;
+    background-color: #e5e5e5;
 }
 .drop {
     margin-left: 23rem;
@@ -31,6 +31,9 @@ main {
 }
 .card-user{
     background-color: #E3F0FF;
+}
+.quantity{
+    background-color: #FFF0DF;
 }
 /*offer*/
 .offer-card {
@@ -236,5 +239,8 @@ footer{
     }
     .crd-decor {
         width: 7rem;
-    }    
+    }
+    .product-det .img-box img{
+        height: auto;
+    }  
 }
