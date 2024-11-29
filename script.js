@@ -31,18 +31,10 @@ const countdownFunction = setInterval(() => {
 }, 1000);
 
 
-$('.slider-for').slick({
+$('.product-slider').slick({
+  infinite: true,
   slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false,
-  fade: true,
-  asNavFor: '.slider-nav'
-});
-$('.slider-nav').slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  asNavFor: '.slider-for',
-  dots: true,
-  centerMode: true,
-  focusOnSelect: true
+  slidesToScroll: 3,
+  arrows: true,
+  dots: true
 });
