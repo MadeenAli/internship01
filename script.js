@@ -1,5 +1,5 @@
 // Set the countdown end date
-const countdownDate = new Date("Dec 31, 2024 23:59:59").getTime();
+const countdownDate = new Date("Dec 31, 2026 23:59:59").getTime();
 
 const countdownFunction = setInterval(() => {
   // Get current date and time
@@ -36,5 +36,8 @@ $('.product-slider').slick({
   slidesToShow: 1,
   slidesToScroll: 3,
   arrows: true,
-  dots: true
+  dots: true,
+  speed: 300,
+  autoplay: true,
+  loop: true
 });
